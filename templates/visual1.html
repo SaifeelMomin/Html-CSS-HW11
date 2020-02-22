@@ -1,0 +1,103 @@
+<html>
+
+    <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" href="static/stylesheet.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>Visual 2 - Humidity</title>
+    </head>
+
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="visual1.html">Humidity Plot</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="visual2.html">Cloudiness Plot</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="visual3.html">Max Temp Plot</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="visual4.html">Wind Speed Plot</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comparisons.html">Comparisons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+                  <!-- </li>
+                </li>
+                </li> -->
+              </ul>
+            </div>
+          </nav>
+          <div class="container">
+            <div class = "row">
+                <div class = "col-sm-12 col-md-8">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading"><h2>Plot 1: City Latitude vs. Humidity</h2></div>
+                        <div class="panel-body">
+                          <p><img width="100%" src="../static/Humidity.png" alt = "Plot1" /></p>
+                          <p><h4>Description:</h4></p>
+                          <p> From the above plot comparing latitude to humidity, we can see that there isn't a strong relationship between the two variables. 
+                            There is a higher concentration of cities with high levels of humidity as latitude increases. This could be a result of different seasons as the cities south of the equator are experiencing summer seasons which could be drier than other seasons.
+                            Another factor that could influence the data could be the location of the randomly selected cities. If one city is closer to the coast than another, we would expect the coastal city to have a higher humidity level than cities further from the coast.  
+                          </p>
+                        </div>
+                    </div>
+                </div>  
+                <div class = "col-sm-12 col-md-4">
+                    <div class="panel panel-success">
+                        <div class="panel-heading"><h2>Visualizations</h2></div>
+                        <div class="panel-body">
+                          <div class = "row">
+                            <div class = "col-6">
+                              <a href="visual1.html">
+                                <img src= "static/Humidity.png" alt = "" width="150" height="150"/>
+                              </a>
+                            </div>
+                            <div class = "col-6">
+                              <a href="visual2.html">
+                                <img src= "static/Cloudiness.png" alt = "" width="150" height="150"/>
+                              </a>
+                            </div>
+                          </div>
+                          <div class = "row">
+                            <div class = "col-6">
+                              <a href="visual3.html">
+                                <img src= "static/Max_Temp.png" alt = "" width="150" height="150"/>
+                              </a>
+                            </div>
+                            <div class = "col-6">
+                              <a href="visual4.html">
+                                <img src= "static/Wind_Speed.png" alt = "" width="150" height="150"/>
+                              </a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>  
+            </div>
+          </div>
+
+
+    </body>
+
+
+
+</html>
+
